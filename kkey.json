@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "wallpaper-engine-53baa",
+  "private_key_id": "77269bb152e347ce3390929f1f916ffcab581715",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCQFBEO+Qn6gy4S\npD4f33uqNfQrA/3r0yEtcXU1vtlbAg2Nj0T7Vils4v1u41z12Q77kUkVPFBVE7AQ\nv7uhW7E19CB1Mo2VE6f97IcClpNiOTcK/Ehk7C9XJKj5WwKoYOTV73APKJnBdj4U\nhvZ7zs4MiA1zTuHa/0FOcbgRRTz4e/R5rCQUPcbB4mCio/CEt96yZs5ttdXKBJPy\nwVXzH5wkOoI9ViyXoRf8pypWQYmxpKaX1Q2i8hL5t3/2VNRP1RY3Y1LgYcl+bOtn\nApS51u7C0cGLpxlufcp9lH8L6D5+E29qJiiMSiJCcdHu8EzERxCAvKTO1xDphzM9\nBiy25OC7AgMBAAECggEAHJrXTi00hXeQ6KOSL/rLTx5aJUYsHitzPVX2yt5iwfZU\n4YON0wamv9cLMP5UAP2Aw4JzS5OHcXSwsoqWgnE1bDxVS19ni6703e2dWm6xwUER\nxA0VhG/98CO3ppYin3JpTG42xdOuPyIuLh4jhq4m64cBgKCrJ7Mg8KWUQV2JPt31\nBJV5CqitZsRMdpYmnEEdx2Rm+xGri+4K+REXncN4lGB285rHcBeIQCg5INT5Kg/R\nmo6agl4/PNCvkojjGPpdP9RNV2cvmCjEEZy9BzZ76qY2mmsPhHeojFrhHEmQeMAs\nfqkfkjwx/0S5KeQixUbHsiL2Vmrju5k+5ktvWQCeRQKBgQDDhy+q9ZKyZTxyYv9G\nc9EFykc0RBJ1DgmO7m7GMqMNOhpajTEKxP4q3EHV/rqxAj1mtUPURkd69GRqFSQY\niTzPNO1dv4P0zU8mCcaRGrGsMUvphJR+EDcmqT2Sv3EvDvOFMJFj726i/l4GXcvN\nUoUvWWXJpgvQcWSP3rzyxxLY3wKBgQC8o2IqUbhoeSSxCEukL2IwSGYmKPTZcBe6\nKVv2aJZTXJLabuYGJw/hD+YgJzQD4XdowxfbrjQ3uwibu8eCb5fZkvFBvQkYksU/\nw6Bc/GyMq91ueqFH3g+b4+7umO2bN9NTV2LjOEYo+PbLs9LS+dP2FuNQ09VQBcP4\n7wST6U8HpQKBgQCasXfLICMBtQqPzTb9/F9g31paRYj8xzBUvtsxP5q0ukVjYtVs\nGdKlAkGsFq6JoKYHfl29siSXaIeRTkyShPFxVgR96SlzIoP+KjnJT39GJnJSvCvn\nWNjpY3htg7z+aCvOMlC06hd0KR8mlkrJlQH+JhJb6Vzreur+0FBZG5sTrQKBgQCR\nH5Ue/53CaiirNbmTx4xfnuNPSkUMnyrx4m3IhS/ZVCf6ekTmyNhzilq9s8tVjPjj\nlOve6wdrNK3ruaxEkfudvGl07Kx5xjiP1L2jq+MK2hHRs/AuLQ2PHe0sjGSH/IvM\n2zbNnfaEAP1FO8Pe4aqK8ZLSFRZPqQ/ajG/WJzDQrQKBgH2QQO5x5soJKmwkxz5L\nAGs7+gQ/uwy10X8yxDs0fCrJbdGODi8e9u7I7xrVQBWSS//Rmy4UsgMgzKK5kHRf\nQVGjD+qZG1G90lN6HUEIABKPWuCGI/RoRhufeG7+53se4YXGe2FM019wsI+AjPui\nSVJR9+yYug3lr0dbWmnfm1Ow\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-cakra@wallpaper-engine-53baa.iam.gserviceaccount.com",
+  "client_id": "107461766081847259833",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-cakra%40wallpaper-engine-53baa.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

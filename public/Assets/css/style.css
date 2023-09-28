@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* text-align: center; */
+    background-color: #E5E5E5;
+}
+button{
+    background-color: #242F40;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 90px;
+    height: 31px;
+    /* font-weight: 100; */
+    border: none;
+}
+.logout{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: end;
+}
+#logout {
+     /* background-color: rgb(255, 255, 255);
+    color: white;  */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px; /* Add padding to the header */
+    height: 125px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #d6dae1;
+}
+a{
+    font-size: 15px;
+}
+h1{
+    text-align: center;
+    margin: 26px 0px 30px 0px;
+    font-weight: 900;
+    color: #363636;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+button:hover{
+    background-color: #CCA43B;
+}
+.search-result:hover .download-button {
+    display: block;
+  }
+  
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(../images/car.jpg); */
+    height: 50px;
+    width: auto;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+#input {
+    width: 248px;
+    border-radius: 4px;
+    border: none;
+    /* text-align: center; */
+    font-size: large;
+    padding: 10px;
+    height: 32px;
+    /* border-radius: 5px; */
+    /* display: block; */
+}
+#submit-button{
+    /* margin-top: 15px; */
+    width: 65px;
+    height: 31px;
+    margin-left:10px ;
+    cursor: pointer;
+    /* border-radius: 3px; */
+    border: none;
+}
+/* .search-result img:hover{
+    height: 220px;
+    width: 100%;
+} */
+.search-results{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+    
+}
+.search-result {
+    margin-bottom: 20px;
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative; /* Add relative positioning */
+  }
+  .download-button {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #242f40;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 90px;
+    height: 31px;
+    border: none;
+  }
+    
+.search-result img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: opacity 0.2s ease-in-out;
+    border-radius: 3px;
+}
+/* .search-result img {
+    max-height: 30px; 
+    width: auto;
+} */
+.search-result:hover img{
+    opacity: 0.8;
+}
+/* .search-result a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-transform: capitalize;
+} */
+.search-result a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-transform: capitalize;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis; /* Add ellipsis if text overflows */
+}
+#username-container{
+    color: black;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.image{
+    background-image: url("../images/main.jpg");
+    height: auto;
+    width: auto;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#show-more{
+    /* background-color: darkgray;
+    border: 1px solid black; */
+    /* display: block; */
+    /* border-radius: 2px; */
+    cursor: pointer;
+    display: none;
+    text-align: center;
+    /* background-color: #6cb1ff; */
+    margin-bottom: 40px;
+    width: 90px;
+    height: 31px;
+    /* font-weight: 100; */
+    border: none;
+}
+@media screen and (max-width: 768px){
+    .search-results{
+        padding: 20px;
+    }
+    .search-result{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 480px){
+    .search-result{
+        width: 100%;
+        /* margin: 10px */
+    }
+}
